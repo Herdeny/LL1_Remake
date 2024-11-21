@@ -220,5 +220,12 @@ int main() {
             }
         }
         cout << "分析结束，表达式合法" << endl;
+        // 清空栈
+        while (!input.empty()) {
+            input.pop();
+        }
+        while (!analysis.empty()) {
+            analysis.pop();
+        }
     }
 }

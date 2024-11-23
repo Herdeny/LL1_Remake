@@ -33,16 +33,19 @@
 ​	**一、LL(1)分析法**
 
 ​        LL(1) 分析法又称预测分析法 ，是 一种不带回溯的非递归自上而下分析法。
-
+![image](https://github.com/user-attachments/assets/72e64d38-88c8-4468-b9cb-e640ce7c8c5d)
  
 
 ​	**二、LL(1)分析器**
 
-   <img src="D:\16531\桌面\文档\编译原理\assets\image-20241123151145490.png" alt="image-20241123151145490" style="zoom:67%;" />
+![image](https://github.com/user-attachments/assets/62383870-382e-42de-9da8-fdd469ab46e8)
+
 
 ​	**三、LL(1)分析表**
 
- <img src="D:\16531\桌面\文档\编译原理\assets\image-20241123151324254.png" alt="image-20241123151324254" style="zoom:67%;" />
+![image](https://github.com/user-attachments/assets/1ff716ff-2d34-431c-97e9-ce9d70145edc)
+
+
 
 ​	**四、LL(1)文法**
 
@@ -56,6 +59,7 @@
 
 ​	（2）假若 $\beta \stackrel{*}{\Rightarrow} \epsilon$，则有 $\text{FIRST}(\alpha) \cap \text{FOLLOW}(A) = \emptyset$ ：避免了在分析表同一栏目内出现 $A \rightarrow \alpha$ 和 $A \rightarrow \epsilon$ 的情况。
 
+![image](https://github.com/user-attachments/assets/70a56890-d0cb-46e7-9891-8555a89f5a54)
 
 
 ## 四、内容和步骤
@@ -131,10 +135,8 @@ $$
 
 ##### 	2、运行结果
 
-<img src="D:\16531\桌面\文档\编译原理\assets\image-20241123154714711.png" alt="image-20241123154714711" style="zoom: 50%;" />
 
-<img src="D:\16531\桌面\文档\编译原理\assets\image-20241123154749334.png" alt="image-20241123154749334" style="zoom: 67%;" />
-
+略
 
 
 ## 六、实验结论
